@@ -1,7 +1,7 @@
 //global variale
 var contacts = [
     {
-        "firstName": "Akira",
+        "firstName": "Nesta",
         "lastName": "Laine",
         "number": "0543236543",
         "likes": ["Pizza", "Coding", "Brownie Points"]
