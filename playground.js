@@ -1,23 +1,27 @@
 //global variale
 var contacts = [
+    //first object
     {
         "firstName": "Nesta",
         "lastName": "Laine",
         "number": "0543236543",
         "likes": ["Pizza", "Coding", "Brownie Points"]
     },
+    //second object
     {
         "firstName": "Harry",
         "lastName": "Potter",
         "number": "0994372684",
         "likes": ["Hogwarts", "Magic", "Hagrid"]
     },
+    //third object
     {
         "firstName": "Sherlock",
         "lastName": "Holmes",
         "number": "0487345643",
         "likes": ["Intriguing Cases", "Violin"]
     },
+    //fourth object
     {
         "firstName": "Kristian",
         "lastName": "Vos",
