@@ -10,6 +10,8 @@ if (theNumber < 10){
     console.log("Small");
 } else if (theNumber < 100){
     console.log("Medium");
-} else {
+} else if(theNumber < 1000){
     console.log("Large");
+}else {
+    console.log("X-large");
 }
