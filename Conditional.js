@@ -6,12 +6,14 @@ let theNumber = Number(prompt("Pick a number"));
 // }
 
 //multiple if-else statements
-if (theNumber < 10){
+if (theNumber < 1){
+    console.log("X-small");
+} else if (theNumber < 10){
     console.log("Small");
 } else if (theNumber < 100){
     console.log("Medium");
 } else if(theNumber < 1000){
     console.log("Large");
-}else {
+} else {
     console.log("X-large");
 }
