@@ -1,3 +1,4 @@
+//Trying the long way
 console.log(0);
 console.log(2);
 console.log(4);
