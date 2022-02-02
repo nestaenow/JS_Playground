@@ -13,3 +13,20 @@ while (number <= 12){
     console.log(number);
     number += 2;
 }
+
+//for a more useful code we'll use
+let result = 1, counter = 0;
+while (counter < 10){
+    result *= 2;
+    counter += 1;
+}
+console.log(result);
+
+//doWhile loop
+let yourName;
+
+do {
+    yourName = prompt("Who are you?");
+} while (!yourName);
+
+console.log(yourName);
