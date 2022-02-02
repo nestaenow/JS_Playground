@@ -1,4 +1,4 @@
-//Trying the long way
+//Trying the long way to display a series of numbers
 console.log(0);
 console.log(2);
 console.log(4);
