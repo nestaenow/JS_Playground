@@ -47,3 +47,25 @@ for (let current = 20; ; current++) {
         break;
     }
 }
+
+//Getting the difference between break and continue
+
+//continue
+let text = '';
+for (let i = 0; i < 10; i++) {
+    if (i === 5 ){
+        continue;
+    }
+    text += i;
+}
+console.log(text);
+
+//break
+let text2 = '';
+for (let i = 0; i < 10; i++) {
+    if (i === 5 ){
+        break;
+    }
+    text2 += i;
+}
+console.log(text2);
