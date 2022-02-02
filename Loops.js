@@ -25,8 +25,13 @@ console.log(result);
 //doWhile loop
 let yourName;
 
-do {
-    yourName = prompt("Who are you?");
-} while (!yourName);
+// do {
+//     yourName = prompt("Who are you?");
+// } while (!yourName);
 
-console.log(yourName);
+// console.log(yourName);
+
+//forLoop
+for (let i = 0; i <= 12; i += 2) {
+    console.log(i);
+}
