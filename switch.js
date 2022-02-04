@@ -1,3 +1,4 @@
+//normal switch statement
 switch (prompt("What is the weather like?")) {
     case 'rainy':
         console.log("Remember to bring an umbrella.");
