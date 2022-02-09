@@ -1,8 +1,9 @@
 // const square = function(x) {
-//     return x * x;
-// };
+const square = (x) => {
+    return x * x;
+};
 
-// console.log(square(4));
+console.log(square(12));
 
 // const makeNoise = function() {
 //     console.log('Pling!');
@@ -30,11 +31,17 @@
 // console.log(x + z);
 
 //Arrow Function
-const power = (base, exponent) => {
-    let result = 1;
-    for (let count = 0; count < exponent; count++) {
-        result *= base;
-    }
-    return result;
+// const power = (base, exponent) => {
+//     let result = 1;
+//     for (let count = 0; count < exponent; count++) {
+//         result *= base;
+//     }
+//     return result;
+// };
+// console.log(power(2,10));
+const square1 = (x) => {
+    return x * x;
 };
-console.log(power(2,10));
+const square2 = x => x * x;
+console.log(square1(4));
+console.log(square2(4));
