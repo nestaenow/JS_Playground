@@ -46,5 +46,12 @@ console.log(square(12));
 // console.log(square1(4));
 // console.log(square2(4));
 
-function square1(x) { return x + x; }
-console.log(square1(4, true, 'hedgehog'));
+// function square1(x) { return x * x; }
+// console.log(square1(4, true, 'hedgehog'));
+function minus(a, b) {
+if (b === undefined) return -a;
+else return a - b;
+}
+console.log(minus(10));
+
+console.log(minus(10, 5));
