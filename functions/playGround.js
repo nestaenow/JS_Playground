@@ -55,4 +55,3 @@ else return a - b;
 console.log(minus(10));
 
 console.log(minus(10, 5));
-//wasn't quite right
