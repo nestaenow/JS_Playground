@@ -48,11 +48,28 @@ console.log(square(12));
 
 // function square1(x) { return x * x; }
 // console.log(square1(4, true, 'hedgehog'));
-function minus(a, b) {
-if (b === undefined) return -a;
-else return a - b;
-}
-console.log(minus(10));
+// function minus(a, b) {
+// if (b === undefined) return -a;
+// else return a - b;
+// }
+// console.log(minus(10));
 
-console.log(minus(10, 5));
-//just another day of code
+// console.log(minus(10, 5));
+function wrapValue(n) {
+    let local = n;
+    return () => local;
+}
+
+let wrap1 = wrapValue(1);
+let wrap2 = wrapValue(2);
+console.log(wrap1());
+console.log(wrap2());
+
+function multiplier(factor) {
+    return number => number * factor;
+}
+
+let twice = multiplier(2);
+let thrice = multiplier(3);
+console.log(twice(5));
+console.log(thrice(5));
