@@ -1,9 +1,9 @@
 // const square = function(x) {
-const square = (x) => {
-    return x * x;
-};
+// const square = (x) => {
+//     return x * x;
+// };
 
-console.log(square(12));
+// console.log(square(12));
 
 // const makeNoise = function() {
 //     console.log('Pling!');
