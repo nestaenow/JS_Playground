@@ -73,4 +73,3 @@ let twice = multiplier(2);
 let thrice = multiplier(3);
 console.log(twice(5));
 console.log(thrice(5));
-//another day of design
