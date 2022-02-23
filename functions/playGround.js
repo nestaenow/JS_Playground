@@ -55,22 +55,34 @@
 // console.log(minus(10));
 
 // console.log(minus(10, 5));
-function wrapValue(n) {
-    let local = n;
-    return () => local;
+// function wrapValue(n) {
+//     let local = n;
+//     return () => local;
+// }
+
+// let wrap1 = wrapValue(1);
+// let wrap2 = wrapValue(2);
+// console.log(wrap1());
+// console.log(wrap2());
+
+// function multiplier(factor) {
+//     return number => number * factor;
+// }
+
+// let twice = multiplier(2);
+// let thrice = multiplier(3);
+// console.log(twice(5));
+// console.log(thrice(5));
+
+//Recursion
+function power(base, exponent) {
+    if (exponent == 0){
+        return 1;
+    } else {
+        console.log(base + 'a');
+        console.log(exponent + 'b');
+        return base * power(base, exponent - 1);
+    }
 }
 
-let wrap1 = wrapValue(1);
-let wrap2 = wrapValue(2);
-console.log(wrap1());
-console.log(wrap2());
-
-function multiplier(factor) {
-    return number => number * factor;
-}
-
-let twice = multiplier(2);
-let thrice = multiplier(3);
-console.log(twice(5));
-console.log(thrice(5));
-//
+console.log(power(3, 3));
