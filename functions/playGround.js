@@ -160,4 +160,4 @@ const min = (a,b) => {
 }
 let x = prompt('NUM1: ');
 let y = prompt('NUM2: ');
-console.log(min(x, y)); 
+console.log(min(Number(x), Number(y))); 
