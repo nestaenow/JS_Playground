@@ -75,30 +75,46 @@
 // console.log(thrice(5));
 
 //Recursion
-function power(base, exponent) {
-    if (exponent == 0){
-        return 1;
-    } else {
-        console.log(base + 'a');
-        console.log(exponent + 'b');
-        return base * power(base, exponent - 1);
+// function power(base, exponent) {
+//     if (exponent == 0){
+//         return 1;
+//     } else {
+//         console.log(base + 'a');
+//         console.log(exponent + 'b');
+//         return base * power(base, exponent - 1);
+//     }
+// }
+
+// console.log(power(3, 3));
+// //recursion over loop better example
+// function findSolution(target) {
+//     function find(current, history) {
+//         if (current == target) {
+//             return history;
+//         }else if (current > target){
+//             return null;
+//         }else {
+//             return find(current + 5, `(${history} + 5)`) || 
+//             find(current * 3, `(${history} * 3)`); 
+//         }
+//     }
+//     return find(1, "1");
+// }
+
+// console.log(findSolution(13));
+
+//Growing Functions
+function printFarmInventory(cows, chickens){
+    let cowString = String(cows);
+    while(cowString.length < 3){
+        cowString = '0' + cowString;
     }
+    console.log(`${cowString} Cows`);
+    let chickenString = String(chickens);
+    while(chickenString.length < 3){
+        chickenString = '0' + chickenString;
+    }
+    console.log(`${chickenString} Chickens`);
 }
 
-console.log(power(3, 3));
-//recursion over loop better example
-function findSolution(target) {
-    function find(current, history) {
-        if (current == target) {
-            return history;
-        }else if (current > target){
-            return null;
-        }else {
-            return find(current + 5, `(${history} + 5)`) || 
-            find(current * 3, `(${history} * 3)`); 
-        }
-    }
-    return find(1, "1");
-}
-
-console.log(findSolution(13));
+printFarmInventory(12, 6);
