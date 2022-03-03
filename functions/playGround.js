@@ -174,5 +174,14 @@ function countBs(string) {
     }
     return count;
 }
+function countChar(string, char) {
+    let count = 0;
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === String(char))
+            count++
+    }
+    return count;
+}
 
-console.log(countBs('behance by Lucaba'));
+console.log(countBs('Behance by Lucaba'));
+console.log(countChar('Behance by Lucaba', 'b'));
