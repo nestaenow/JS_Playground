@@ -158,5 +158,6 @@ const min = (a,b) => {
     else
         return a;
 }
-
-console.log(min(10, 1)); 
+let x = prompt('NUM1: ');
+let y = prompt('NUM2: ');
+console.log(min(x, y)); 
