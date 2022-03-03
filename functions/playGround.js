@@ -152,7 +152,7 @@
 
 // printFarmInventory(7, 16, 3);
 
-//Minimum function
+//Minimum
 // const min = (a,b) => {
 //     if(a > b)
 //         return b;
@@ -163,9 +163,9 @@
 // let y = Number(prompt('NUM2: '));
 // console.log(min(x, y)); 
 
-//isEven Function
+//Recursion
 
-//countBs Function
+//Bean Counting
 function countBs(string) {
     let count = 0;
     for(let i = 0; i < string.length; i++){
