@@ -152,6 +152,7 @@
 
 // printFarmInventory(7, 16, 3);
 
+//Minimum function
 const min = (a,b) => {
     if(a > b)
         return b;
