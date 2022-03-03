@@ -158,6 +158,6 @@ const min = (a,b) => {
     else
         return a;
 }
-let x = prompt('NUM1: ');
-let y = prompt('NUM2: ');
-console.log(min(Number(x), Number(y))); 
+let x = Number(prompt('NUM1: '));
+let y = Number(prompt('NUM2: '));
+console.log(min(x, y)); 
