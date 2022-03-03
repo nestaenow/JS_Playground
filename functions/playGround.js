@@ -153,12 +153,26 @@
 // printFarmInventory(7, 16, 3);
 
 //Minimum function
-const min = (a,b) => {
-    if(a > b)
-        return b;
-    else
-        return a;
+// const min = (a,b) => {
+//     if(a > b)
+//         return b;
+//     else
+//         return a;
+// }
+// let x = Number(prompt('NUM1: '));
+// let y = Number(prompt('NUM2: '));
+// console.log(min(x, y)); 
+
+//isEven Function
+
+//countBs Function
+function countBs(string) {
+    let count = 0;
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === 'B')
+            count++
+    }
+    return count;
 }
-let x = Number(prompt('NUM1: '));
-let y = Number(prompt('NUM2: '));
-console.log(min(x, y)); 
+
+console.log(countBs('behance by Lucaba'));
