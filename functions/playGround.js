@@ -164,33 +164,33 @@
 // console.log(min(x, y)); 
 
 //Recursion
-function isEven(n) {
-    if (n == 0) return true;
-    if (n == 1) return false;
-    else if (n < 0) return isEven(-n);
-    else return isEven(n - 2);
+// function isEven(n) {
+//     if (n == 0) return true;
+//     if (n == 1) return false;
+//     else if (n < 0) return isEven(-n);
+//     else return isEven(n - 2);
+// }
+
+// console.log(isEven(50));
+// console.log(isEven(75));
+// console.log(isEven(-1));
+//Bean Counting
+function countBs(string) {
+    let count = 0;
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === 'B')
+            count++
+    }
+    return count;
+}
+function countChar(string, char) {
+    let count = 0;
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === String(char))
+            count++
+    }
+    return count;
 }
 
-console.log(isEven(50));
-console.log(isEven(75));
-console.log(isEven(-1));
-//Bean Counting
-// function countBs(string) {
-//     let count = 0;
-//     for(let i = 0; i < string.length; i++){
-//         if(string[i] === 'B')
-//             count++
-//     }
-//     return count;
-// }
-// function countChar(string, char) {
-//     let count = 0;
-//     for(let i = 0; i < string.length; i++){
-//         if(string[i] === String(char))
-//             count++
-//     }
-//     return count;
-// }
-
-// console.log(countBs('Behance by Lucaba'));
-// console.log(countChar('Behance by Lucaba', 'b'));
+console.log(countBs('Behance by Lucaba'));
+console.log(countChar('Behance by Lucaba', 'b'));
