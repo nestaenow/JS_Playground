@@ -194,4 +194,3 @@ function countChar(string, char) {
 
 console.log(countBs('Behance by Lucaba'));
 console.log(countChar('Behance by Lucaba', 'b'));
-//
