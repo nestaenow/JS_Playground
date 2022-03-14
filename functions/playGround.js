@@ -197,5 +197,9 @@
 // console.log(countChar('Lululita', 'l'));
 
 //Data Structures: Objects & Arrays
+//Data Sets
 let listOfNumbers = [2, 3, 5, 7, 11];
 console.log(listOfNumbers[2]);
+
+//Properties
+console.log(null.length);
