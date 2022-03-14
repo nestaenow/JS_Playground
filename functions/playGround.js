@@ -175,23 +175,27 @@
 // console.log(isEven(75));
 // console.log(isEven(-1));
 //Bean Counting
-function countBs(string) {
-    let count = 0;
-    for(let i = 0; i < string.length; i++){
-        if(string[i] === 'B')
-            count++
-    }
-    return count;
-}
-function countChar(string, char) {
-    let count = 0;
-    for(let i = 0; i < string.length; i++){
-        if(string[i] === String(char))
-            count++
-    }
-    return count;
-}
+// function countBs(string) {
+//     let count = 0;
+//     for(let i = 0; i < string.length; i++){
+//         if(string[i] === 'B')
+//             count++
+//     }
+//     return count;
+// }
+// function countChar(string, char) {
+//     let count = 0;
+//     for(let i = 0; i < string.length; i++){
+//         if(string[i] === String(char))
+//             count++
+//     }
+//     return count;
+// }
 
-console.log(countBs('Behance by Lucaba'));
-console.log(countChar('Behance by Lucaba', 'b'));
-console.log(countChar('Lululita', 'l'));
+// console.log(countBs('Behance by Lucaba'));
+// console.log(countChar('Behance by Lucaba', 'b'));
+// console.log(countChar('Lululita', 'l'));
+
+//Data Structures: Objects & Arrays
+let listOfNumbers = [2, 3, 5, 7, 11];
+console.log(listOfNumbers[2]);
