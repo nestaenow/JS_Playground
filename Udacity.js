@@ -84,6 +84,21 @@
 //   x = x - 1;
 // }
 
-for(let x = 9; x >= 1; x--){
-    console.log("hello " + x);
+
+//equivalent of the above while loop
+
+// for(let x = 9; x >= 1; x--){
+//     console.log("hello " + x);
+// }
+
+let x = prompt('Enter a positive number: ');
+let f = 1;
+if (x == 0) {
+    console.log(x + ' Factorial is: 1');
+}
+else{
+    for (let num = x; num > 0; num--) {
+        f *= num
+    }
+    console.log(x + ' Factorial is: ' + f);
 }
