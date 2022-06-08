@@ -91,14 +91,20 @@
 //     console.log("hello " + x);
 // }
 
-let x = prompt('Enter a positive number: ');
-let f = 1;
-if (x == 0) {
-    console.log(x + ' Factorial is: 1');
-}
-else{
-    for (let num = x; num > 0; num--) {
-        f *= num
+// let x = prompt('Enter a positive number: ');
+// let f = 1;
+// if (x == 0) {
+//     console.log(x + ' Factorial is: 1');
+// }
+// else{
+//     for (let num = x; num > 0; num--) {
+//         f *= num
+//     }
+//     console.log(x + ' Factorial is: ' + f);
+// }
+
+for (let index = 0; index < 26; index++) {
+    for (let y = 0; y < 100; y++) {
+        console.log(index + '-' + y);
     }
-    console.log(x + ' Factorial is: ' + f);
 }
