@@ -103,8 +103,19 @@
 //     console.log(x + ' Factorial is: ' + f);
 // }
 
-for (let index = 0; index < 26; index++) {
-    for (let y = 0; y < 100; y++) {
-        console.log(index + '-' + y);
-    }
+// for (let index = 0; index < 26; index++) {
+//     for (let y = 0; y < 100; y++) {
+//         console.log(index + '-' + y);
+//     }
+// }
+
+// your code goes here
+function laugh() {
+    // create a variable with any name of your choice
+    const sound = "hahahahahahahahahaha!"
+    return sound;
 }
+
+// test your code by logging out the returned value
+// Don't forget to add the () after function name to call it!
+console.log(laugh());
