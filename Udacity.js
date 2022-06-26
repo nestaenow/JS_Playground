@@ -109,13 +109,23 @@
 //     }
 // }
 
-// your code goes here
-function laugh() {
-    // create a variable with any name of your choice
-    const sound = "hahahahahahahahahaha!"
-    return sound;
-}
+// // your code goes here
+// function laugh() {
+//     // create a variable with any name of your choice
+//     const sound = "hahahahahahahahahaha!"
+//     return sound;
+// }
 
-// test your code by logging out the returned value
-// Don't forget to add the () after function name to call it!
+// // test your code by logging out the returned value
+// // Don't forget to add the () after function name to call it!
+// console.log(laugh());
+
+let sound = "" ; 
+function laugh(num) {
+    for (var x = 0 ; x < num ; x++) {
+        sound = sound + "ha" ;
+    }
+    sound = sound +"!"; 
+    return sound; 
+}
 console.log(laugh());
