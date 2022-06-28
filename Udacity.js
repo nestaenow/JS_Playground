@@ -120,12 +120,12 @@
 // // Don't forget to add the () after function name to call it!
 // console.log(laugh());
 
-let sound = "" ; 
-function laugh(num) {
-    for (var x = 0 ; x < num ; x++) {
-        sound = sound + "ha" ;
-    }
-    sound = sound +"!"; 
-    return sound; 
-}
-console.log(laugh());
+// let sound = "" ; 
+// function laugh(num) {
+//     for (var x = 0 ; x < num ; x++) {
+//         sound = sound + "ha" ;
+//     }
+//     sound = sound +"!"; 
+//     return sound; 
+// }
+// console.log(laugh());
