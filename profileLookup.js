@@ -27,7 +27,6 @@ const contacts = [
 ];
 
 function lookUpProfile(name, prop) {
-  // Only change code below this line
   for (let i = 0; i < contacts.length; i++){
     if (contacts[i].firstName === name){
         //checking for the presence of a property in each object
@@ -42,7 +41,6 @@ function lookUpProfile(name, prop) {
     }
   }
   return "No such contact"
-  // Only change code above this line
 }
 
 lookUpProfile("Akira", "likes");
