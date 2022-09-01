@@ -40,6 +40,7 @@ function lookUpProfile(name, prop) {
         }
     }
   }
+  //If the firstName parameter isn’t matched by the final contacts object, the for loop exits and No such contact is returned.
   return "No such contact"
 }
 
