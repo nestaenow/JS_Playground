@@ -1,4 +1,3 @@
-// Setup
 const contacts = [
   {
     firstName: "Akira",
