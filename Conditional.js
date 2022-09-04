@@ -1,4 +1,4 @@
-let theNumber = Number(prompt("Pick a number"));
+// let theNumber = Number(prompt("Pick a number"));
 // if (!Number.isNaN(theNumber)) {
 //     console.log("Your number is the square root of " + theNumber * theNumber);
 // } else {
@@ -6,17 +6,17 @@ let theNumber = Number(prompt("Pick a number"));
 // }
 
 //multiple if-else statements
-if (theNumber < 1){
-    console.log("X-small");
-} else if (theNumber < 10){
-    console.log("Small");
-} else if (theNumber < 100){
-    console.log("Medium");
-} else if(theNumber < 1000){
-    console.log("Large");
-} else {
-    console.log("X-large");
-}
+// if (theNumber < 1){
+//     console.log("X-small");
+// } else if (theNumber < 10){
+//     console.log("Small");
+// } else if (theNumber < 100){
+//     console.log("Medium");
+// } else if(theNumber < 1000){
+//     console.log("Large");
+// } else {
+//     console.log("X-large");
+// }
 
 function checkEqual(a, b) {
   return a === b ? "Equal" : "Not Equal";
