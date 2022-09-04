@@ -22,7 +22,7 @@ function checkEqual(a, b) {
   return a === b ? "Equal" : "Not Equal";
 }
 
-checkEqual(1, 2);
+console.log(checkEqual(1, 2));
 
 //This function used the multiple tenary operators to check the sign of the number inputed
 function checkSign(num) {
@@ -31,4 +31,4 @@ function checkSign(num) {
     : "zero";
 }
 
-checkSign(10);
+console.log(checkSign(10));
